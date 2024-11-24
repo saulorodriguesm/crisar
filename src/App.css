@@ -1,0 +1,39 @@
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modalDialog > div {
+  width: 40%;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+@media (max-width: 767px) {
+  .modalDialog > div {
+    width: 90%;
+  }
+}
+.app-modal--close {
+  background: #ad1a1c;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 25px;
+}
+.app-modal--close:hover {
+  opacity: 0.9;
+}
