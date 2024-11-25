@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div id="about" className="p-10 ">
-      <div className="max-w-screen-xl m-auto ">
+    <div id="about" className="about">
+      <div className="container">
         <h3> Sobre </h3>
         <div className="text-justify text-1xl text-black">
           Cris Ar é a sua escolha de confiança para instalação, manutenção e
@@ -14,7 +14,7 @@ const About = () => {
           instalação de ar-condicionado em Atibaia, manutenção preventiva ou
           corretiva, a Cris Ar é a parceira ideal para cuidar do seu sistema de
           climatização. Usamos as melhores práticas do mercado para aumentar a
-          vida útil dos aparelhos e reduzir o consumo de energia. 
+          vida útil dos aparelhos e reduzir o consumo de energia.
         </div>{" "}
       </div>{" "}
     </div>
