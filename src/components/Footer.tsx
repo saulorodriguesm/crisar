@@ -20,12 +20,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-between text-white text-xs">
           <div className="flex my-3">
-            <a
-              className="mr-3"
-              href="https://www.linkedin.com/company/%CF%80ping-projetos-de-engenharia/about/"
-            >
-              <img className="w-6" src={Assets.linkedin} />
-            </a>
+
             <a href="">
               <img className="w-6" src={Assets.instagram} />
             </a>

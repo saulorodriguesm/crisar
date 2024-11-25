@@ -9,7 +9,7 @@ const Header = () => {
           {window.innerWidth > 768 ? (
             <img className="header-image" src={Assets.blueLogo} />
           ) : (
-            <img className="header-image" src={Assets.mobileLogo} />
+            <img className="header-image" src={Assets.blueLogo} />
           )}
         </div>
 
