@@ -20,18 +20,6 @@ const Header = () => {
           >
             sobre
           </a>
-          <a
-            href="#projects"
-            className="mx-2.5 hover:opacity-70 cursor-pointer text-xl md:text-2xl"
-          >
-            projetos
-          </a>
-          <a
-            href="#team"
-            className="mx-2.5 hover:opacity-70 cursor-pointer text-xl md:text-2xl"
-          >
-            time
-          </a>
         </div>
       </div>{" "}
     </div>
